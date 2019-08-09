@@ -1,12 +1,8 @@
 app-id: io.otsaloma.nfoview
 runtime: org.gnome.Platform
-runtime-version: "3.30"
+runtime-version: "3.32"
 sdk: org.gnome.Sdk
 command: nfoview
-rename-appdata-file: nfoview.appdata.xml
-rename-desktop-file: nfoview.desktop
-rename-icon: nfoview
-copy-icon: true
 finish-args:
   - --share=ipc
   - --socket=wayland
@@ -19,5 +15,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/otsaloma/nfoview.git
-        tag: "1.26.1"
-        commit: 8a2278f9d244d5bd228fbea3716f8fe39bfdcef3
+        tag: "1.27"
+        commit: 151f50be48966cf8dbf73c2635ff4a4f27222b6d
