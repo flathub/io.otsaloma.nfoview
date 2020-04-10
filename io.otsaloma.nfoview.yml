@@ -1,6 +1,6 @@
 app-id: io.otsaloma.nfoview
 runtime: org.gnome.Platform
-runtime-version: "3.32"
+runtime-version: "3.34"
 sdk: org.gnome.Sdk
 command: nfoview
 finish-args:
@@ -15,5 +15,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/otsaloma/nfoview.git
-        tag: "1.27"
-        commit: 151f50be48966cf8dbf73c2635ff4a4f27222b6d
+        tag: "1.27.1"
+        commit: 69366fe2e449131deafeea8a206c7b86541daafe
