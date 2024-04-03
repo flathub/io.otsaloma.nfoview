@@ -15,9 +15,9 @@ modules:
     buildsystem: simple
     build-commands:
       - make build
-      - make PREFIX=/app SETUP_PREFIX=/app install
+      - make PREFIX=/app install
     sources:
       - type: git
         url: https://github.com/otsaloma/nfoview.git
-        tag: "1.99"
-        commit: e182556be30d38b645f8e7e63c32eb9840db47d9
+        tag: "2.0"
+        commit: f3a01465c8497e378852ba14a2a0807b77d77dd2
