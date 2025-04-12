@@ -19,5 +19,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/otsaloma/nfoview.git
-        tag: "2.0.1"
-        commit: b72275edd94ec3420e110baae96815bb78893f7a
+        tag: "2.1"
+        commit: 117bb91e15d1b602e3760412937a45dc4fd86706
