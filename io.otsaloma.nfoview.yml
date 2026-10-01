@@ -9,15 +9,15 @@ finish-args:
   - --filesystem=xdg-videos
   - --share=ipc
   - --socket=wayland
-  - --socket=x11
+  - --socket=fallback-x11
 modules:
   - name: nfoview
     buildsystem: simple
     build-commands:
-      - make PREFIX=/app build
+      - make build
       - make PREFIX=/app install
     sources:
       - type: git
         url: https://github.com/otsaloma/nfoview.git
-        tag: "2.1"
-        commit: 117bb91e15d1b602e3760412937a45dc4fd86706
+        tag: "2.2"
+        commit: 7d168c881ce8d1036b0ef0ac1e1dc4f9eae3d1d7
